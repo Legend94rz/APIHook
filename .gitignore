@@ -1,0 +1,11 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/APIHook
+/APIHook/x64
+/APIHook/Release
+/APIHookLib/Debug
+/APIHookLib/Release
+/APIHookLib/x64
+/APIHook.VC.db

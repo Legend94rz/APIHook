@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APIHook", "APIHook\APIHook.vcxproj", "{6EDEDB55-82FF-47FD-AB16-AAB308329171}"
+	ProjectSection(ProjectDependencies) = postProject
+		{970B92FD-738F-42DE-8F85-E09EF6817C86} = {970B92FD-738F-42DE-8F85-E09EF6817C86}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APIHookLib", "APIHookLib\APIHookLib.vcxproj", "{970B92FD-738F-42DE-8F85-E09EF6817C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonFiles", "CommonFiles", "{D5B326DE-F8A9-4B0F-8DF7-C4F796F0048B}"
+	ProjectSection(SolutionItems) = preProject
+		CommonFiles\CmnHdr.h = CommonFiles\CmnHdr.h
+		CommonFiles\EnsureCleanup.h = CommonFiles\EnsureCleanup.h
+		CommonFiles\IoCompletionPort.h = CommonFiles\IoCompletionPort.h
+		CommonFiles\Toolhelp.h = CommonFiles\Toolhelp.h
+		CommonFiles\WaitChainTraversal.h = CommonFiles\WaitChainTraversal.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Debug|x64.ActiveCfg = Debug|x64
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Debug|x64.Build.0 = Debug|x64
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Debug|x86.Build.0 = Debug|Win32
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Release|x64.ActiveCfg = Release|x64
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Release|x64.Build.0 = Release|x64
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Release|x86.ActiveCfg = Release|Win32
+		{6EDEDB55-82FF-47FD-AB16-AAB308329171}.Release|x86.Build.0 = Release|Win32
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Debug|x64.ActiveCfg = Debug|x64
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Debug|x64.Build.0 = Debug|x64
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Debug|x86.ActiveCfg = Debug|Win32
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Debug|x86.Build.0 = Debug|Win32
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Release|x64.ActiveCfg = Release|x64
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Release|x64.Build.0 = Release|x64
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Release|x86.ActiveCfg = Release|Win32
+		{970B92FD-738F-42DE-8F85-E09EF6817C86}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
